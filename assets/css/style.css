@@ -1,28 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Kanit", sans-serif;
+  background-color: black;
+  background-image: url("../img/instrucciones.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 50px 75px;
+  font-family: "Kanit", sans-serif;
 }
 
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/* listado animales */
+
+#animales {
+  height: 100%;
+  background-image: url("../img/tablero.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imgAnimal {
+  border-radius: 50%;
+  max-width: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+#imgAnimal:hover {
+  box-shadow: 1px 10px 45px 5px black;
+}
+
+#resImgAnimal {
+  border-radius: 50%;
+}
+
+#animales div div {
+  transition: all 200ms;
+}
+
+/* .modal-dialog {
+  max-width: 85% !important;
+} */
+
+/* formulario */
+
+#tituloForm,
+#desForm {
+  color: white;
+}
+
+#registro {
+  height: 100%;
+  background-image: url("../img/tablero2.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#divImg {
+  border-radius: 50%;
+  max-width: 100%;
+  width: 175px;
+  height: 175px;
+  display: flex !important;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+#cardImg {
+  align-items: center;
+  background-color: transparent;
+  border: transparent;
+}
+
+#imagen {
+  background-image: url(../img/look.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  max-width: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+#btnAgregar {
+  background-color: #ffc107;
+  color: black;
+}
+
+#btnSonido {
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+/* footer personalizado */
+
 footer {
-    height: 100px;
-    font-size: 16px;
-    color: white;
-    text-shadow: 2px 2px 4px black;
+  height: 100px;
+  font-size: 16px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
 }
 
 footer p {
-    font-family: "Space Mono", monospace;
+  font-family: "Kanit", sans-serif;
 }
 
 footer img {
-    width: 100%;
-    max-width: 100px;
+  width: 100%;
+  max-width: 85px;
+  background-color: black;
+}
+
+/* modal inicio */
+
+#modalInicio {
+  height: 100%;
+  background-image: url("../img/instrucciones.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#modalInicio:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }

@@ -1,0 +1,29 @@
+{
+  "animales": [
+    {
+      "name": "Aguila",
+      "imagen": "Aguila.jpg",
+      "sonido": "Chillido.mp3"
+    },
+    {
+      "name": "Leon",
+      "imagen": "Leon.jpg",
+      "sonido": "Rugido.mp3"
+    },
+    {
+      "name": "Lobo",
+      "imagen": "Lobo.jpg",
+      "sonido": "Aullido.mp3"
+    },
+    {
+      "name": "Oso",
+      "imagen": "Oso.jpg",
+      "sonido": "Grunido.mp3"
+    },
+    {
+      "name": "Serpiente",
+      "imagen": "Serpiente.jpg",
+      "sonido": "Siseo.mp3"
+    }
+  ]
+}
